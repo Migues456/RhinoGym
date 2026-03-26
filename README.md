@@ -1,22 +1,22 @@
-\# E-Business Gym - Proyecto Rhino Gym
+# E-Business Gym - Proyecto Rhino Gym
 
 Proyecto \& Laboratorio de E-business.
 
 
 
-\## Estructura del Proyecto
+## Estructura del Proyecto
 
 Este repositorio contiene el despliegue de una pagina y tienda virtual en \*\*WordPress + WooCommerce\*\* utilizando \*\*Docker\*\*.
 
 
 
-\## Requisitos
+## Requisitos
 
-\* Docker \& Docker Compose instalado.
+* Docker \& Docker Compose instalado.
 
 
 
-\## Instalacion y Despliegue
+## Instalacion y Despliegue
 
 1\. Clonar el repositorio.
 
@@ -28,7 +28,7 @@ Este repositorio contiene el despliegue de una pagina y tienda virtual en \*\*Wo
 
 &#x20;  - Acceder a phpMyAdmin en `localhost:8081`.
 
-&#x20;  - Importar el archivo `db\_proyecto\_creastack.sql` incluido en la raiz.
+&#x20;  - Importar el archivo `rhinogym_wordpress.sql` incluido en la raiz.
 
 4\. El sitio estara disponible en `localhost:8080`.
 

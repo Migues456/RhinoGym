@@ -38,14 +38,17 @@ Este repositorio contiene el despliegue de una pagina y tienda virtual en \*\*Wo
 
 
 
-\## Herramientas Utilizadas
+## Herramientas Utilizadas
 
-\* Docker
-\* MySQL 8.0
-\* WordPress
-\* phpMyAdmin
+* Docker
 
-\* WooCommerce
+* MySQL 8.0
 
-\* Github
+* WordPress
+
+* phpMyAdmin
+
+* WooCommerce
+
+* Github
 

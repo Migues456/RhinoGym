@@ -1,9 +1,9 @@
-wp-content/uploads/
-wp-content/upgrade/
-wp-content/cache/
-mysql_data/
+wordpress/wp-content/uploads/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/cache/
+
+mysql_data/ 
+
 .env
 *.log
-
 .DS_Store
-Thumbs.db

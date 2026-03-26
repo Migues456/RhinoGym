@@ -26,7 +26,7 @@ Este repositorio contiene el despliegue de una pagina y tienda virtual en \*\*Wo
 
 3\. Importar la base de datos:
 
-&#x20;  - Acceder a phpMyAdmin en `localhost:8081`.
+&#x20;  - Acceder a phpMyAdmin en `localhost:8081`. ( Usuario y Contraseña: wpuser - wppassword )
 
 &#x20;  - Importar el archivo `rhinogym_wordpress.sql` incluido en la raiz.
 

@@ -30,6 +30,8 @@ Este repositorio contiene el despliegue de una pagina y tienda virtual en \*\*Wo
 
 &#x20;  - Importar el archivo `rhinogym_wordpress.sql` incluido en la raiz.
 
+&#x20;  - Tambien puede usar el comando `docker exec -i wordpress_db mysql -u wpuser -pwppassword wordpress < rhinogym_wordpress.sql` luego del compose.
+
 4\. El sitio estara disponible en `localhost:8080`.
 
 

@@ -75,14 +75,14 @@ define( 'DB_COLLATE', getenv_docker('WORDPRESS_DB_COLLATE', '') );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         'b4469cf5135f815b5f71cc622c0451971edf4f0c') );
-define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  'a27cb3f3527050af0ddd8e61f90bd306e974f486') );
-define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    '1faba8e01813c4fb4ef5ab3a70c1d01d4278a53b') );
-define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        '0f86f57fbe35cab3f7687643215a827ba10ffa76') );
-define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        '49ddeb9e09b4dd60f5d3600f7433146d5285db3c') );
-define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', 'f703e5094d6ac0efa75e926c730a543c6a503667') );
-define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'd6443cb3b9f4fcb9907a45ecfb39ad60966c6296') );
-define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       'cc44fd2a2c3ed81206694429598ed3bb60bb30e2') );
+define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         '459d5a0b56e488a15c7a3e2714cc9eccd3f9a654') );
+define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  '0951a1ea650dcfffabbb93b93d6dbf0093dfbf2c') );
+define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    'e765eeef1bef7ec8c38b942500e7c38e73dd4b93') );
+define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        'f05ffb345666be8e69f1e92cf83fa4ccb312ac64') );
+define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        '67bbe1564dde7e6b34efcd1dc6af25314b4751aa') );
+define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '9e2492e3561f7554a97c4a480644e2ebf8dfa167') );
+define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   '1054b868d0fba4040cff127132064a39dfad0a89') );
+define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '09cb0c9a24a15209542112c566773a4527016fb1') );
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
 /**#@-*/
@@ -127,8 +127,6 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARD
 if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
 	eval($configExtra);
 }
-
-define('WPLANG', 'es_ES');
 
 /* That's all, stop editing! Happy publishing. */
 
